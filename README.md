@@ -14,7 +14,7 @@
 - The objective is to interact with the user and if he/she is a buyer he/she will navigate to the cars section and explore cars present. if he/she is a seller, still navigate to the cars section and explore the cars to understand the marketing of cars. Any user who wants to sell car can contact to admin by filling the form present in the contacts page.
 
 <p align="center">
-  <img src="https://github.com/dev-venkateshnagumantri/cars_world-gitproject/blob/master/website%20images/Intro2.png" >
+  <img src="https://github.com/gaurav9808/carwebsite/blob/main/intro2.png" >
 </p>
 
 - Any user who wants to sell car can contact the admin by filling the form present in the contacts page. any user who wishes to buy car can inquire about the car using inquiry form present for each car.
