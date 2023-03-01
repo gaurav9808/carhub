@@ -6,7 +6,7 @@
 ## Introduction:
 
 <p align="center">
-  <img src="https://github.com/dev-venkateshnagumantri/cars_world-gitproject/blob/master/website%20images/Intro.png" >
+  <img src="https://github.com/gaurav9808/carwebsite/blob/main/intro.png" >
 </p>
 
 - Car Zone is a website which integrates both car buyers and sellers on one platform.
