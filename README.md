@@ -40,11 +40,11 @@ pip install -r requirements.txt
 ## Execution:
 -	Clone this repository using
 ```
-git clone https://github.com/dev-venkateshnagumantri/cars_world-gitproject
+git clone https://github.com/gaurav9808/carwebsite
 ```
 **OR**
 Zip Download the Repository and Extract it's contents.
--	Now run the [manage.py](https://github.com/dev-venkateshnagumantri/cars_world-gitproject/blob/master/manage.py) file directly in your Terminal using
+-	Now run the [manage.py](https://github.com/gaurav9808/carwebsite/blob/master/manage.py) file directly in your Terminal using
 ```
 python manage.py runserver 
 ```
