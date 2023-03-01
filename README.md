@@ -26,9 +26,6 @@
 - you can see some of the website pictures in the [website images](https://github.com/dev-venkateshnagumantri/cars_world-gitproject/tree/master/website%20images) section.
 
 ## About:
-<p align="center">
-  <img src="https://github.com/dev-venkateshnagumantri/cars_world-gitproject/blob/master/website%20images/about%20page.png">
-</p>
 
 This CarZone website is an idea of me where i went through building of this website from scratch by using HTML, CSS, JavaScript in Frontend and Django, PostgreSQL in Backend. The designing of this website took 6 months of time in total.
 
@@ -57,14 +54,14 @@ Then, open your browser and type localhost:8000 or 127.0.0.1:8000
 
 ## Feedback:
 
-if you have any feedback do reach me at mail venkateshnagumantri01@gmail.com **OR** at [Linkedin](https://www.linkedin.com/in/venkateshnagumantri)
+if you have any feedback do reach me at mail gauravthakur.gt76gt@gmail.com **OR** at [Linkedin](https://www.linkedin.com/in/gaurav-singh-06aa801a4/)
 
 ## License:
 
 [MIT License](License)
 
 
-<p align='center'><b>Made with ❤ by Venkatesh Nagumantri</b></p>
+<p align='center'><b>Made with ❤ by Gaurav Thakur</b></p>
 
 
  
