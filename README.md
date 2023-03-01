@@ -61,7 +61,7 @@ if you have any feedback do reach me at mail gauravthakur.gt76gt@gmail.com **OR*
 [MIT License](License)
 
 
-<p align='center'><b>Made with ❤ by Gaurav Thakur</b></p>
+<p align='center'><b>Made with ❤ by Gaurav Kumar Singh</b></p>
 
 
  
