@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+
+{% block title %}| Login{% endblock %}
+{% block content %}
+
+{% load static %}
+<!--Sub banner start-->
+<div class="sub-banner overview-bgi">
+    <div class="container breadcrumb-area">
+        <div class="breadcrumb-areas">
+            <h1>Login Here</h1>
+            <ul class="breadcrumbs">
+                <li><a href="{% url 'pages:home' %}">Home</a></li>
+                <li class="active">Login</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Sub Banner end -->
+
+<!-- Contact section start -->
+<div class="contact-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="form-section">
+                    <div class="logo-2">
+                        <a href="{% url 'pages:home' %}">
+                            <img src="{% static 'img/logos/black-logo.png' %}" alt="logo">
+                        </a>
+                    </div>
+                    <br>
+                    <h3>Sign into your account</h3>
+                    {%include 'includes/messages.html'%}
+                    <form action="{% url 'pages:login' %}" method="POST">
+                        {% csrf_token %}
+                        <div class="form-group form-box">
+                            <input type="text" name="field" class="input-text" placeholder="Enter username or email adress" style="color:black !important;" AutoFocus required>
+                            <i class="flaticon-mail"></i>
+                        </div>
+                        <div class="form-group form-box">
+                            <input type="password" name="password" class="input-text" placeholder="Password" style="color:black !important;" required>
+                            <i class="flaticon-lock"></i>
+                        </div>
+                        <div class="form-group mb-0 clearfix">
+                            <button type="submit" class="btn-md btn-theme float-left">Login</button>
+                        </div>
+                        <div class="extra-login clearfix">
+                            <span>Or Login With</span>
+                        </div>
+                        <div class="clearfix"></div>
+                        <ul class="social-list" style="word-spacing:20px; !important" >
+                            <li><a href="{% url 'social:begin' 'facebook'  %}" class="facebook-bg"><i class="fa fa-facebook facebook-i"></i><span>Facebook</span></a></li>
+                            <li><a href="{% url 'social:begin' 'google-oauth2' %}" class="google-bg"><i class="fa fa-google google-i"></i><span>Google</span></a></li>
+                            <li><a href="{% url 'social:begin' 'linkedin-oauth2' %}" class="linkedin-bg"><i class="fa fa-linkedin linkedin-i"></i><span>Linkedin</span></a></li>
+                        </ul>
+                    </form>
+                    <p>Don't have an account? <a href="{% url 'pages:register' %}" style="color:rgb(0,0,237) !important;" class="thembo"><b> Register here</b></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact section end -->
+{% endblock  %}
